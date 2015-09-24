@@ -11,9 +11,19 @@ body
     height: 60px; 
     z-index: 100;
     background-color: #000000;
-      
-         opacity:0.3;
+    opacity:0.3;
      
+}
+.menu_name{
+    color: #ffffff;
+    font-family: sans-serif;
+    float: left;
+    text-decoration: none;
+}
+.menu_text{
+    color: #ffffff;
+    font-family: sans-serif;
+    text-decoration: none;
 }
 .navigation {
     list-style: none;
@@ -31,35 +41,15 @@ body
     padding: 0 25px 0 0;
     font-size: 2em;
   }
-.left{
-    color: #ffffff;
-    font-family: sans-serif;
-    float: left;
-    text-decoration: none;
 
-}
-.r{float: right;
-}
-.l{     float: left;
-}
 .right{
-    color: #ffffff;
-    font-family: sans-serif;
-    text-decoration: none;
+    float: right;
 }
-
-#slide2
-{
-    background-color:#ffffff;
-    box-shadow: 0 18px 14px -14px rgba(0,0,0,0.6), 0 -18px 14px -14px rgba(0,0,0,0.6);
-    z-index: 10;
+.left{
+    float: left;
 }
-,
-#slide6{
-    background-color:#ffffff;
-    box-shadow: 0 18px 14px -14px rgba(0,0,0,0.6), 0 -18px 14px -14px rgba(0,0,0,0.6);
-    z-index: 10;
-    height: 200%;
+#inline{
+    display: inline-block;
 }
 
 #slide1
@@ -70,6 +60,15 @@ body
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+
+#slide2
+{
+    background-color:#ffffff;
+    box-shadow: 0 18px 14px -14px rgba(0,0,0,0.6), 0 -18px 14px -14px rgba(0,0,0,0.6);
+    z-index: 10;
+    height: 70%;
+
 }
  
 #slide3
@@ -85,8 +84,9 @@ body
     background-color:#ffffff;
     box-shadow: 0 18px 14px -14px rgba(0,0,0,0.6), 0 -18px 14px -14px rgba(0,0,0,0.6);
     z-index: 10;
-    height: 170%;
+    height: 110%;
 }
+
 #slide5
 {
     background-image:url('../img/castelm.jpg');
@@ -96,18 +96,41 @@ body
     background-attachment: fixed;
 }
 
+#slide6{
+    background-color:#ffffff;
+    box-shadow: 0 18px 14px -14px rgba(0,0,0,0.6), 0 -18px 14px -14px rgba(0,0,0,0.6);
+    z-index: 10;
+    height: 240%;
+}
+
+#slide7
+{
+    background-image:url('../img/serra2.jpg');
+    background-color:#fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#slide8{
+    background-color:#ffffff;
+    box-shadow: 0 18px 14px -14px rgba(0,0,0,0.6), 0 -18px 14px -14px rgba(0,0,0,0.6);
+    z-index: 10;
+    height: 90%;
+
+}
+
+#slide9{
+    z-index: 100;
+    background-color: #000000;
+    opacity:0.3;
+}
+
 .icons{
     width:4%;
     height: 4%;
     margin-left: 1.5%;
 }
-
-
-
-#contact{    display:block;
-}
-
-
 
 #about_container{
     height:auto;
@@ -175,6 +198,27 @@ body
 
 }
 
+.skills{
+    float: left;
+    width:30%;
+    margin-left: 3%;
+}
+
+#skill_name{
+    text-decoration: none;
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 120%;
+    font-weight:normal;
+    text-align: left;
+}
+
+#stars{
+    width: 20%;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
 
 h1 {
     font-size: 500%;
@@ -211,6 +255,15 @@ h5{
 h4{
     text-decoration: none;
     color: #000000;
+    font-family: sans-serif;
+    font-size: 120%;
+    font-weight:normal;
+    text-align: left;
+
+}
+h6{
+    text-decoration: none;
+    color: #ffffff;
     font-family: sans-serif;
     font-size: 120%;
     font-weight:normal;

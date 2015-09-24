@@ -1,0 +1,54 @@
+[	{
+        "name": "Jquery", 
+        "skill": "4"
+    },  
+    {
+        "name": "Bootstrap", 
+        "skill": "4"
+    },  
+    {
+        "name": "Backbone", 
+        "skill": "5"
+    },  
+    {
+        "name": "Parse", 
+        "skill": "4"
+    },  
+    {
+        "name": "Angular", 
+        "skill": "2"
+    },  
+    {
+        "name": "Cordova", 
+        "skill": "5"
+    },  
+    {
+        "name": "Eclipse", 
+        "skill": "4"
+    },  
+    {
+        "name": "Sublime Text", 
+        "skill": "4"
+    },  
+    {
+        "name": "Git", 
+        "skill": "3"
+    },
+    {
+        "name": "Struts 1", 
+        "skill": "2"
+    }, 
+    {
+        "name": "Node", 
+        "skill": "1"
+    },
+    {
+        "name": ".NET", 
+        "skill": "1"
+    }, 
+    {
+        "name": "Magic Draw", 
+        "skill": "4"
+    }
+
+ ]

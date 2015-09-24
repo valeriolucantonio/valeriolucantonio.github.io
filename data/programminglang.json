@@ -1,0 +1,41 @@
+[	{
+        "name": "Java", 
+        "skill": "4"
+    },  
+    {
+        "name": "Javascript", 
+        "skill": "4"
+    },  
+    {
+        "name": "HTML", 
+        "skill": "5"
+    },  
+    {
+        "name": "CSS3", 
+        "skill": "4"
+    },  
+    {
+        "name": "SQL", 
+        "skill": "4"
+    },  
+    {
+        "name": "XML", 
+        "skill": "3"
+    },  
+    {
+        "name": "C", 
+        "skill": "2"
+    },  
+    {
+        "name": "C#", 
+        "skill": "2"
+    },  
+    {
+        "name": "PHP", 
+        "skill": "2"
+    },  
+    {
+        "name": "C++", 
+        "skill": "2"
+    }
+ ]

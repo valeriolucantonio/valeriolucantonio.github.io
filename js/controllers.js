@@ -2,7 +2,7 @@
 
 /* Controllers */
 
-var phonecatApp = angular.module('phonecatApp', []);
+var App = angular.module('ValerioLucantonio', []);
 
 
 //phonecatApp.controller('InfoCtrl', function ($scope) {
@@ -15,21 +15,40 @@ phonecatApp.controller('InfoCtrl', function($scope){
       $scope.info = { 'about' : 'ciaoocoaoco' };
     });
   */
-  phonecatApp.controller('InfoCtrl', function ($scope, $http) {
+  App.controller('InfoCtrl', function ($scope, $http) {
   $http.get('data/about.json').success(function(data) {
     $scope.info = data;
   	});
 
   });
-  phonecatApp.controller('EduCtrl', function ($scope, $http) {
+  App.controller('EduCtrl', function ($scope, $http) {
   $http.get('data/educations.json').success(function(data) {
     $scope.edu = data;
   	});
 
   });
-  phonecatApp.controller('ProCtrl', function ($scope, $http) {
+  App.controller('ProCtrl', function ($scope, $http) {
   $http.get('data/projects.json').success(function(data) {
     $scope.pro = data;
+    });
+
+  });
+  
+  App.controller('ProgrammingCtrl', function ($scope, $http) {
+  $http.get('data/programminglang.json').success(function(data) {
+    $scope.prog = data;
+    });
+
+  });
+  App.controller('FrameworkCtrl', function ($scope, $http) {
+  $http.get('data/frameworks.json').success(function(data) {
+    $scope.frame = data;
+    });
+
+  });
+  App.controller('LanguageCtrl', function ($scope, $http) {
+  $http.get('data/languages.json').success(function(data) {
+    $scope.lang = data;
     });
 
   });

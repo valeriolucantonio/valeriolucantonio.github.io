@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" ng-app="phonecatApp">
+<html lang="en" ng-app="ValerioLucantonio">
 <head>
 
   <meta charset="utf-8">
@@ -20,35 +20,39 @@
 
 <header class="menu">
   <div class="container">
-   <nav>
-    <ul class="navigation">
-     <li><a href="#slide1" class="left">Valerio Lucantonio</a></li>
-     <div class="r">
-     <li><a href="#slide2" class="right">About</a></li>
-     <li><a href="#slide4" class="right">Education</a></li>
-     <li><a href="#slide6" class="right">Projects</a></li>
-   </div>
-    </ul>
-   </nav>
+    <nav>
+      <ul class="navigation">
+       <li><a href="#slide1" class="menu_name">Valerio Lucantonio</a></li>
+       <div class="right">
+         <li><a href="#slide2" class="menu_text">About</a></li>
+         <li><a href="#slide4" class="menu_text">Education</a></li>
+         <li><a href="#slide6" class="menu_text">Projects</a></li>
+         <li><a href="#slide8" class="menu_text">Skills</a></li>
+         <li><a href="#slide9" class="menu_text">Contacts</a></li>
+       </div>
+      </ul>
+    </nav>
   </div> 
 </header>
+
 <section class="slide" id="slide1" data-stellar-background-ratio="0.5">
   <h1>Valerio Lucantonio</h1>
   <h2>Full-Stack Developer</h2>
-  <div id="contacts">
-        <a href="mailto:valerio.lucantonio@gmail.com"><img src="img/mail.png" class="icons"></a>
-        <a href="https://www.linkedin.com/profile/view?id=AAIAABXvB0EBpc9XWL5g_QSuPbeAM7Fpew1DtB4&trk=nav_responsive_tab_profile_pic"><img src="img/linkedin.png" class="icons"></a>
-        <a href="https://www.facebook.com/valerio.lucantonio"><img src="img/fb.png" class="icons"></a>
-        <a href="https://500px.com/valeriolucantonio"><img src="img/500.png" class="icons"></a>
-        <a href="github.com/valeriolucantonio">  <img src="img/git.png" class="icons"></a>
+  <div id="inline">
+    <a href="mailto:valerio.lucantonio@gmail.com"><img src="img/mail.png" class="icons"></a>
+    <a href="https://www.linkedin.com/profile/view?id=AAIAABXvB0EBpc9XWL5g_QSuPbeAM7Fpew1DtB4&trk=nav_responsive_tab_profile_pic"><img src="img/linkedin.png" class="icons"></a>
+    <a href="https://www.facebook.com/valerio.lucantonio"><img src="img/fb.png" class="icons"></a>
+    <a href="https://500px.com/valeriolucantonio"><img src="img/500.png" class="icons"></a>
+    <a href="github.com/valeriolucantonio">  <img src="img/git.png" class="icons"></a>
   </div>
 </section>
+
 <section class="slide" id="slide2" data-stellar-background-ratio="0.5" ng-controller="InfoCtrl">
  <h3> About </h3>
-  <div id="about_container">
-  <img src={{info.img}} class="l" id="about_img">
-  <div id="about_text"><h4>{{info.about}}</h4><div>
-</div>
+ <div id="about_container">
+  <img src={{info.img}} class="left" id="about_img">
+  <div id="about_text"><h4>{{info.about}}</h4></div>
+ </div>
 </section>
 
 <section class="slide" id="slide3" data-stellar-background-ratio="0.5" ></section>
@@ -73,23 +77,59 @@
 <section class="slide" id="slide5" data-stellar-background-ratio="0.5"></section>
 
 <section class="slide" id="slide6" data-stellar-background-ratio="0.5"  ng-controller="ProCtrl">
-<h3>Projects</h3>
+  <h3>Projects</h3>
   <div ng-repeat="project in pro">
-
     <div class="project_container">
-
       <div class="project_img_cont"><img src={{project.img}} class="project_img"></div>
-    <div class="project_text">
+      <div class="project_text">
         <h5>{{project.name}}</h5>
         <h4>{{project.description}}</h4>
         <h4>Technologies: {{project.technologies}}</h4>
         <a href={{project.repository}}><h4>Get Repository From Github</h4></a>
-
       </div>   
     </div>
   </div>
 </section>
 
+<section class="slide" id="slide7" data-stellar-background-ratio="0.5"></section>
+
+<section class="slide" id="slide8" data-stellar-background-ratio="0.5">
+  <h3>Skills</h3>
+
+  <div class="skills" ng-controller="ProgrammingCtrl" >
+    <h5>Programming Languages</h5>
+    <div id="inline"ng-repeat="programming in prog">    
+      <div id="skill_name"class="left">{{programming.name}}</div>
+      <img src="img/{{programming.skill}}stars.png" id="stars" class="right">
+    </div>   
+  </div>
+
+  <div class="skills" ng-controller="FrameworkCtrl" >
+    <h5>Framework and Tools</h5>
+    <div id="inline"ng-repeat="framework in frame">
+      <div id="skill_name"class="left">{{framework.name}}</div>
+      <img src="img/{{framework.skill}}stars.png" id="stars" class="right">
+   </div>   
+  </div>
+
+  <div class="skills" ng-controller="LanguageCtrl" >
+    <h5>Languages</h5>
+    <div id="inline"ng-repeat="language in lang">
+      <div id="skill_name"class="left">{{language.name}}</div>
+      <img src="img/{{language.skill}}stars.png" id="stars" class="right">
+   </div>   
+  </div>
+</section>
+
+<section class="slide" id="slide9" data-stellar-background-ratio="0.5">
+  <h2>Valerio Lucantonio</h2>
+  <a href="mailto:valerio.lucantonio@gmail.com"> <img src="img/mail.png" class="icons"> </a>
+  <a href="https://www.linkedin.com/profile/view?id=AAIAABXvB0EBpc9XWL5g_QSuPbeAM7Fpew1DtB4&trk=nav_responsive_tab_profile_pic"><img src="img/linkedin.png" class="icons"></a>
+  <a href="https://www.facebook.com/valerio.lucantonio"><img src="img/fb.png" class="icons"></a>
+  <a href="skype:merlin1one?call"><img src="img/skype.png" class="icons"></a>
+  <a href="hangout:valerio.lucantonio?call"><img src="img/hangout.png" class="icons"></a>
+  <a href="github.com/valeriolucantonio">  <img src="img/git.png" class="icons"></a></div>
+</section>
 
 
 
