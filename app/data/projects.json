@@ -1,0 +1,38 @@
+[
+	{	
+		"name": "Component Technologies: Online Components Repository" , 
+		
+		"description" : "Development of a desktop app and a web app acceding components repository. In the application the client should be able to browse a group of components from the three existing in the database, .Net, Java and Com components. Moreover, the client should also be able to select a component and inspect its interface and dependencies on the server, as well as to download it. The administrator should use a desktop application to manipulate the contents of the database like adding, removing, and editing database entries." ,
+
+		"technologies" : "C#, .NET, Visual Studio, C++, Access DB, SQL Server, Java Beans, Blackboard Pattern" , 
+		
+		"repository" : "https://github.com/valeriolucantonio/Compenent-Technologies" ,
+	
+		"img" : "img/component.png"
+
+	},
+	{	
+		"name": "Software Engineering Project Teamwork: Tree App Engine" , 
+		
+		 "description" : "Team project for creating decisional trees. The project is composed by a web based application that allow an administrator to create decision trees and an end user mobile application (deployed for ios and android) that allows to answer these trees. We can decompose the application into 3 different units end user application, administrator application and an online database that is common for the 2 applications. The administrator application is a web based application accessible by the admin from a web browser. The end user application is a mobile application implemented using javascript and deployed for IOS and Android." ,
+
+		"technologies" : "Javascript, Cordova.js, Backbone,js, Jquery, Parse.js HTML5, CSS3, Rest API, Bootstrap.js, MVC pattern, PhoneGap, Mobile Cross Platform development." ,
+		
+		"repository" : "https://github.com/valeriolucantonio/Software-Engineering-Project-Teamwork " ,
+		
+		"img" : "img/softwareeng.png"
+	},
+	{	
+
+		"name": "Distributed Software Development: Museum Booking System" , 
+		
+		"description" : "Team project distributed between Milano (Italy), Zagreb (Croatia) and Vasteras (Sweden) consists of designing, architecting and implementing a web booking system. The Västerås Flygmuseum needed a web interface to book the flight simulators, which are operated by the museum. The users will be able to select their favorite flying times via a web interface. If it is outside of the normal opening hours, the coordinator will arrange an instructor and confirm the booking with the user. The instructors will have access to all the booking data, so they are always up to date and know what’s going on." ,
+		
+		"technologies" : "PHP, MySQL, SCRUM development process, Asana, Javascript, Product backlog management, HTML5, CSS3." ,
+
+		"repository" : "https://github.com/DSD-BookEasy/BookEasy" ,
+
+		"img" : "img/dsd.png"
+
+	}
+]

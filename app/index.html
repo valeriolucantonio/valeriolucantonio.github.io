@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en" ng-app="phonecatApp">
+<head>
+
+  <meta charset="utf-8">
+  <title>Valerio Lucantonio Website</title>
+  <link rel="stylesheet" href="css/app.css">
+
+
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/angular/angular.js"></script>
+
+  <script src="js/app.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/jquery.stellar.js"></script>
+
+</head>
+
+<body>
+
+<header class="menu">
+  <div class="container">
+   <nav>
+    <ul class="navigation">
+     <li><a href="#slide1" class="left">Valerio Lucantonio</a></li>
+     <div class="r">
+     <li><a href="#slide2" class="right">About</a></li>
+     <li><a href="#slide4" class="right">Education</a></li>
+     <li><a href="#slide6" class="right">Projects</a></li>
+   </div>
+    </ul>
+   </nav>
+  </div> 
+</header>
+<section class="slide" id="slide1" data-stellar-background-ratio="0.5">
+  <h1>Valerio Lucantonio</h1>
+  <h2>Full-Stack Developer</h2>
+  <div id="contacts">
+        <a href="mailto:valerio.lucantonio@gmail.com"><img src="img/mail.png" class="icons"></a>
+        <a href="https://www.linkedin.com/profile/view?id=AAIAABXvB0EBpc9XWL5g_QSuPbeAM7Fpew1DtB4&trk=nav_responsive_tab_profile_pic"><img src="img/linkedin.png" class="icons"></a>
+        <a href="https://www.facebook.com/valerio.lucantonio"><img src="img/fb.png" class="icons"></a>
+        <a href="https://500px.com/valeriolucantonio"><img src="img/500.png" class="icons"></a>
+        <a href="github.com/valeriolucantonio">  <img src="img/git.png" class="icons"></a>
+  </div>
+</section>
+<section class="slide" id="slide2" data-stellar-background-ratio="0.5" ng-controller="InfoCtrl">
+ <h3> About </h3>
+  <div id="about_container">
+  <img src={{info.img}} class="l" id="about_img">
+  <div id="about_text"><h4>{{info.about}}</h4><div>
+</div>
+</section>
+
+<section class="slide" id="slide3" data-stellar-background-ratio="0.5" ></section>
+
+<section class="slide" id="slide4" data-stellar-background-ratio="0.5" ng-controller="EduCtrl">
+  <h3>Education</h3>
+  <div ng-repeat="education in edu">
+    <div class="education_container">
+      <div class="education_img_cont"><img src={{education.img}} class="education_img"></div>
+      <div class="education_text">
+        <h5>{{education.degree}}</h5>
+        <h4>{{education.date}}</h4>
+        <h4>{{education.university}}</h4>
+
+        <a href="{{education.site}}"><h4> {{education.site}}</h4></a>
+        <h4>Mark {{education.mark}}</h4>
+      </div>   
+    </div>
+  </div>
+</section>
+
+<section class="slide" id="slide5" data-stellar-background-ratio="0.5"></section>
+
+<section class="slide" id="slide6" data-stellar-background-ratio="0.5"  ng-controller="ProCtrl">
+<h3>Projects</h3>
+  <div ng-repeat="project in pro">
+
+    <div class="project_container">
+
+      <div class="project_img_cont"><img src={{project.img}} class="project_img"></div>
+    <div class="project_text">
+        <h5>{{project.name}}</h5>
+        <h4>{{project.description}}</h4>
+        <h4>Technologies: {{project.technologies}}</h4>
+        <a href={{project.repository}}><h4>Get Repository From Github</h4></a>
+
+      </div>   
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+</body>
+</html>
