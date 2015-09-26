@@ -1,6 +1,6 @@
 [	{
         "name": "Java", 
-        "skill": "4"
+        "skill": "5"
     },  
     {
         "name": "Javascript", 
@@ -8,7 +8,7 @@
     },  
     {
         "name": "HTML", 
-        "skill": "5"
+        "skill": "4"
     },  
     {
         "name": "CSS3", 
@@ -36,6 +36,6 @@
     },  
     {
         "name": "C++", 
-        "skill": "2"
+        "skill": "3"
     }
  ]
