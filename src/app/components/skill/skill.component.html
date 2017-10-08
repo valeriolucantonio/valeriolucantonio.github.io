@@ -1,0 +1,9 @@
+<ul *ngIf="ready">
+	<li *ngFor="let skill of skills">
+		<span class="skill-name">{{skill.name}}</span>
+		<span class="skill-range">
+			<span *ngFor="let f of skill.full" class="fa fa-star icons"></span>
+			<span *ngFor="let e of skill.empty" class="fa fa-star-o icons"></span>
+		</span>
+	</li>
+</ul>

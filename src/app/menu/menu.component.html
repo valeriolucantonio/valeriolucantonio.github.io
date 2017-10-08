@@ -1,0 +1,4 @@
+<div *ngIf="ready" class="topnav" id="myTopnav">
+  <a *ngFor="let item of menu.items" href="{{item.link}}">{{item.name}}</a>
+  <a href="javascript:void(0);" class="icon" (click)="toggleIsActive()">&#9776;</a>
+</div>

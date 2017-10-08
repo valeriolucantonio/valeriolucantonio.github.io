@@ -1,0 +1,68 @@
+.skills-container {
+	width: 80%;
+	margin: 10%;
+}
+.skills-info {
+  margin-top: 10%;
+  display: inline-block;
+  width: 100%;  
+}
+h1,
+h3 {
+  text-align: center;
+}
+
+.skills-column {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+@media screen and (min-width: 1500px) {
+  h1 {
+    font-size: 5rem;
+  }
+  h3 {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1500px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h3 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h3 {
+    font-size: 3rem;
+  }
+  .skills-info {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding:0;  
+  }
+}  
+
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  .skills-info { 
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+  }
+}  

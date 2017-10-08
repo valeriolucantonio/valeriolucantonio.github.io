@@ -1,0 +1,30 @@
+.contacts-container {
+   	text-align: center;
+}
+
+.contacts-icon {
+	color: white;
+	margin-right: 1%;
+	margin-left: 1%;
+}
+a:hover {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 900px) {
+  .contacts-icon {
+  	font-size: 5rem;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 900px) {
+ .contacts-icon {
+  	font-size: 4rem;
+  }
+}  
+
+@media screen and (max-width: 500px) {
+  .contacts-icon {
+  	font-size: 2.5rem;
+  }
+}  

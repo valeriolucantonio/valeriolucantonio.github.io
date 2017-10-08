@@ -1,0 +1,9 @@
+<section class="parallax" id="{{landing.sectionId}}">
+	<div *ngIf="ready" class="parallax-content">
+		<div class="home-container">
+			<h1>{{landing.name}}</h1>
+			<h2>{{landing.profession}}</h2>
+		</div>
+		<app-contacts [contacts]="contacts"></app-contacts>
+	</div>
+</section>

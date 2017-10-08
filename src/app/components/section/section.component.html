@@ -1,0 +1,13 @@
+<section *ngIf="ready" class="section-container" id="{{section.sectionId}}"> 
+	<h1>{{section.title}}</h1>
+	<div class="section-info"  *ngFor="let s of section.sections">
+		<img class="section-pic" src="{{s.image}}">
+		<div class="section-details">
+			<p *ngFor="let detail of s.details" class="section-detail">
+				<i class="{{detail.icon}} icons"></i>
+				{{detail.description}}
+			</p>
+		</div>
+		<p class="section-description">{{s.description}}</p>
+	</div>
+</section>
