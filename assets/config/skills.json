@@ -1,0 +1,117 @@
+{
+	"title": "Skills",
+	"sectionId": "skills",
+	"skillsets": [
+		{
+			"name": "Programming Languages",
+			"skills": [
+				[{
+					"name":"JavaScript",
+					"rank":5
+				},
+				{
+					"name":"Java",
+					"rank":4
+				},
+				{
+					"name":"HTML",
+					"rank":4
+				},
+				{
+					"name":"TypeScript",
+					"rank":3
+				}],
+				[{
+					"name":"CSS",
+					"rank":2
+				},
+				{
+					"name":"SQL",
+					"rank":3
+				},
+				{
+					"name":"C#",
+					"rank":2
+				},
+				{
+					"name":"PHP",
+					"rank":2
+				}]
+			] 
+		},
+		{
+			"name": "Frameworks and Tools",
+			"skills": [
+				[{
+					"name":"AngularJs",
+					"rank":4
+				},
+				{
+					"name":"Backbone",
+					"rank":4
+				},
+				{
+					"name":"GIT",
+					"rank":5
+				},
+				{
+					"name":"Jquery",
+					"rank":3
+				}],
+				[{
+					"name":"Cordova",
+					"rank":3
+				},
+				{
+					"name":"UML",
+					"rank":4
+				},
+				{
+					"name":"Jasmine",
+					"rank":4
+				},
+				{
+					"name":"Bootstrap",
+					"rank":3
+				}],
+				[{
+					"name":"Jenkins",
+					"rank":3
+				},
+				{
+					"name":"Selenium",
+					"rank":3
+				},
+				{
+					"name":"JSON",
+					"rank":4
+				},
+				{
+					"name":"IntelliJ",
+					"rank":4
+				}]
+			] 
+		},
+		{
+			"name": "Languages",
+			"skills": [
+				[{
+					"name":"Italian",
+					"rank":5
+				},
+				{
+					"name":"English",
+					"rank":5
+				}],
+				[{
+					"name":"Spanish",
+					"rank":2
+				},
+				{
+					"name":"German",
+					"rank":1
+				}]
+			] 
+		}
+	]
+}

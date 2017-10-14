@@ -1,0 +1,22 @@
+{
+	"title": "About Me",
+	"sectionId": "about",
+	"sections": [{
+		"image": "assets/images/me.png",
+		"details":[
+			{	"description": "Valerio Lucantonio",
+				"icon": "fa fa-user"
+			},
+			{	"description": "Software Engineer",
+				"icon": "fa fa-briefcase"
+			},
+			{	"description": "from L'Aquila, Italy",
+				"icon": "fa fa-home"
+			},
+			{	"description": "live in Zurich, Switzerland",
+				"icon": "fa fa-map-marker"
+			}
+		],
+	  	"description": "I am Valerio Lucantonio, a 28 years old guy from Italy. I am a software engineer and right now I am living in Zurich where working for Avaloq, an international company leader in software solutions for banking. I have been living in Switzerland for the last two years, and I really love it also thanks to the sports I do: climbing, hinking and skiing. Before living here I was one year living in Vasteras (Sweeden) where I completed my master degree in software engineer. All rest of my life I was living in Abruzzo, Italy in a small village near the city of L'Aquila, which I love from the deepest of my heart. Other thing I love are eating and cooking, guess it's DNA, traveling and photography. I wish to travel all the world one day."	
+	}]
+}
