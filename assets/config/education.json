@@ -1,0 +1,57 @@
+{
+	"title": "Education",
+	"sectionId": "education",
+	"sections": [{
+		"image": "assets/images/mdh.png",
+		"details":[
+			{	"description": "Sep 2014 - Jun 2015",
+				"icon": "fa fa-calendar"
+			},
+			{	"description": "Software Engineering",
+				"icon": "fa fa-briefcase"
+			},
+			{	"description": "Master Degree 110/110",
+				"icon": "fa fa-graduation-cap"
+			},
+			{	"description": "Malardalen University, Sweden",
+				"icon": "fa fa-university"
+			}
+		],
+		"description": "I earned a master degree as part of an international program named Global Software Engineering European Master (GSEEM), distributed between Italy and Sweden. I spent the second year in Sweden where I attended 4 projects exams (with real customers) in the first semester, and the master thesis project titled 'Enhancing the consistency between requirements and test cases through the definition of a Controlled Natural Language.' in the second semester"
+		},{
+		"image": "assets/images/univaq.png",
+		"details":[
+			{	"description": "Mar 2013 - Set 2014",
+				"icon": "fa fa-calendar"
+			},
+			{	"description": "Software Engineering",
+				"icon": "fa fa-briefcase"
+			},
+			{	"description": "Master Degree 110/110",
+				"icon": "fa fa-graduation-cap"
+			},
+			{	"description": "University of L'Aquila, Italy",
+				"icon": "fa fa-university"
+			}
+		],
+		"description": "I passed the first year of the master degree in my hometown, at the university of L'Aquila. Here I did around 10 exams both theoretical and practical, the most interesting were Software Engineering, Mobile Application Development and Model Driven Engineering."
+		},{
+		"image": "assets/images/univaq.png",
+		"details":[
+			{	"description": "Sep 2008 - Dic 2012",
+				"icon": "fa fa-calendar"
+			},
+			{	"description": "Computer Science",
+				"icon": "fa fa-briefcase"
+			},
+			{	"description": "Bachelor Degree 99/110",
+				"icon": "fa fa-graduation-cap"
+			},
+			{	"description": "University of L'Aquila, Italy",
+				"icon": "fa fa-university"
+			}
+		],
+		"description": "I studied Computer Science as a bachelor degree, in the University of L'Aquila. This course gives a solid theoretical background, and a wide techology overview. I ended the studies, with a thesis work titled 'Design and development of a Java context aware mobile application'."
+		}
+	]
+}

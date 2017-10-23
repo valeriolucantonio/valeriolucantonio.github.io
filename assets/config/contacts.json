@@ -1,0 +1,31 @@
+{
+	"title": "Contacts",
+	"sectionId": "contacts",
+	"contacts": [
+		{
+			"link": "mailto:valerio.lucantonio@gmail.com",
+			"icon": "fa fa-envelope-o"
+		},
+		{
+			"link": "https://www.facebook.com/valerio.lucantonio",
+			"icon": "fa fa-facebook"
+		},
+		{
+			"link": "https://500px.com/valeriolucantonio",
+			"icon": "fa fa-500px"
+		},
+		{
+			"link": "https://linkedin.com/in/valerio-lucantonio",
+			"icon": "fa fa-linkedin"
+		},
+		{
+			"link": "github.com/valeriolucantonio",
+			"icon": "fa fa-github"
+		},
+		{
+			"link": "skype:merlin1one?call",
+			"icon": "fa fa-skype"
+		}
+	],
+	"copyright": "© 2017 Valerio Lucantonio"
+}
