@@ -1,0 +1,30 @@
+{
+	"items": [
+		{
+			"name": "Home",
+			"link": "#home",
+			"icon": "home",
+			"selected": true
+		},
+		{
+			"name": "About",
+			"link": "#about",
+			"icon": "user"
+		},
+		{
+			"name": "Experience",
+			"link": "#experience",
+			"icon": "history"
+		},
+		{
+			"name": "Education",
+			"link": "#education",
+			"icon": "read"
+		},
+		{
+			"name": "Skills",
+			"link": "#skills",
+			"icon": "fire"
+		}
+	]
+}

@@ -1,10 +1,28 @@
-<app-menu source="assets/config/menu.json"></app-menu>
-<app-landing landing="assets/config/landing.json" contacts="assets/config/contacts.json"></app-landing>
-<app-section source="assets/config/about.json"></app-section>
-<div class="parallax parallax-image-1"></div>
-<app-section source="assets/config/experience.json"></app-section>
-<div class="parallax parallax-image-2"></div>
-<app-section source="assets/config/education.json"></app-section>
-<div class="parallax parallax-image-3"></div>
-<app-skills source="assets/config/skills.json"></app-skills>
-<app-footer source="assets/config/contacts.json"></app-footer>
+<div class="app">
+  <app-home></app-home>
+  <app-menu></app-menu>
+  <div nz-row nzType="flex" nzJustify="center" class="about-row">
+    <div nz-col [nzXs]="22" [nzSm]="18" [nzMd]="14" [nzLg]="14" [nzXl]="16" [nzXXl]="16">
+      <app-about></app-about>
+    </div>
+  </div>
+  <div class="section-separator-1"></div>
+  <div nz-row nzType="flex" nzJustify="center">
+    <div nz-col [nzXs]="22" [nzSm]="18" [nzMd]="14" [nzLg]="14" [nzXl]="16" [nzXXl]="16">
+      <app-experience></app-experience>
+    </div>
+  </div>
+  <div class="section-separator-2"></div>
+  <div nz-row nzType="flex" nzJustify="center">
+    <div nz-col [nzXs]="22" [nzSm]="18" [nzMd]="14" [nzLg]="14" [nzXl]="16" [nzXXl]="16">
+      <app-education></app-education>
+    </div>
+  </div>
+  <div class="section-separator-3"></div>
+  <div nz-row nzType="flex" nzJustify="center">
+    <div nz-col [nzXs]="22" [nzSm]="18" [nzMd]="14" [nzLg]="14" [nzXl]="16" [nzXXl]="16">
+      <app-skills></app-skills>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>

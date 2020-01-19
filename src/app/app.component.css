@@ -1,23 +1,28 @@
-.parallax {
-    min-height: 300px; 
+
+.section-separator-1 {
+    background-image: url("../assets/matterhorn.jpg");
+    height: 300px;
     background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-x: center;
-    width: 100%; 
-}
-.parallax-image-1 {
-	background-image: url("../assets/images/castelli.jpg");
-}
-.parallax-image-2 {
-	background-image: url("../assets/images/campofelice2.jpg");
-}
-.parallax-image-3 {
-	background-image: url("../assets/images/serra.jpg");
 }
 
-@media screen and (max-width: 500px) {
-  .parallax {
-  	display: none;
-  }
-}  
+
+.section-separator-2 {
+    background-image: url("../assets/castelli.jpg");
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-separator-3 {
+    background-image: url("../assets/campofelice2.jpg");
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

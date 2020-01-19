@@ -1,9 +1,0 @@
-<section *ngIf="ready" class="skills-container" id="{{skills.sectionId}}"> 
-	<h1>{{skills.title}}</h1>
-	<div *ngFor="let skillset of skills.skillsets" class="skills-info">
-		<h3>{{skillset.name}}</h3>	
-		<div class="skills-column">
-			<app-skill *ngFor="let skillColumn of skillset.skills" [skills]="skillColumn"></app-skill>
-		</div>
-	</div>
-</section>

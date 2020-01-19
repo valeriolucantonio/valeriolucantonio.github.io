@@ -1,0 +1,120 @@
+{
+	"title": "Skills",
+	"skillsets": [
+		{
+			"name": "Programming Languages",
+			"skills": [
+				[
+					{
+						"name": "JavaScript",
+						"rank": 5
+					},
+					{
+						"name": "HTML",
+						"rank": 4
+					},
+					{
+						"name": "TypeScript",
+						"rank": 5
+					}
+				],
+				[
+					{
+						"name": "CSS",
+						"rank": 4
+					},
+					{
+						"name": "Java",
+						"rank": 3
+					},
+					{
+						"name": "SQL",
+						"rank": 3
+					}
+				]
+			]
+		},
+		{
+			"name": "Frontend Frameworks",
+			"skills": [
+				[
+					{
+						"name": "Angular",
+						"rank": 5
+					},
+					{
+						"name": "AngularJs",
+						"rank": 5
+					},
+					{
+						"name": "Aurelia",
+						"rank": 3
+					},
+					{
+						"name": "Backbone",
+						"rank": 3
+					}
+				],
+				[
+					{
+						"name": "Jquery",
+						"rank": 3
+					},
+					{
+						"name": "Bootstrap",
+						"rank": 4
+					},
+					{
+						"name": "ANT Design",
+						"rank": 4
+					},
+					{
+						"name": "Angular Mat",
+						"rank": 3
+					}
+				]
+			]
+		},
+		{
+			"name": "Other Tools",
+			"skills": [
+				[
+					{
+						"name": "Webpack",
+						"rank": 3
+					},
+					{
+						"name": "Jasmine",
+						"rank": 4
+					},
+					{
+						"name": "GIT",
+						"rank": 5
+					},
+					{
+						"name": "Jenkins",
+						"rank": 4
+					}
+				],
+				[
+					{
+						"name": "Selenium",
+						"rank": 3
+					},
+					{
+						"name": "Test Cafe",
+						"rank": 2
+					},
+					{
+						"name": "Docker",
+						"rank": 3
+					},
+					{
+						"name": "Cordova",
+						"rank": 2
+					}
+				]
+			]
+		}
+	]
+}

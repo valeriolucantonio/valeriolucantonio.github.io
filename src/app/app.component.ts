@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-import { bootstrap } from 'bootstrap';
-
 
 @Component({
   selector: 'app-root',
@@ -8,8 +6,5 @@ import { bootstrap } from 'bootstrap';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Valerio Lucantonio';
-  constructor() {
-
-  }
+  title = 'valerio-site';
 }

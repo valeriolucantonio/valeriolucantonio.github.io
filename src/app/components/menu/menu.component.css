@@ -1,0 +1,14 @@
+.menu-container {
+    display: flex;
+    justify-content: space-around;
+}
+.menu {
+    position: sticky;
+    top: 0;
+    z-index: 100000;
+}
+@media screen and (max-width: 700px) {
+    .menu-items {
+        display: none;
+    }
+  }  

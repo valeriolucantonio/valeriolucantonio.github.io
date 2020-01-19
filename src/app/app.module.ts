@@ -1,32 +1,74 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { HttpModule } from '@angular/http';
+import { NgZorroAntdModule } from 'ng-zorro-antd';
+import { FormsModule } from '@angular/forms';
+import { NzIconModule, NZ_ICONS } from 'ng-zorro-antd/icon';
+import {
+  PushpinOutline,
+  ReadOutline,
+  FireOutline,
+  HistoryOutline,
+  HomeOutline,
+  PhoneOutline,
+  UserOutline,
+  MailOutline,
+  LinkedinOutline,
+  CalendarOutline,
+  TeamOutline,
+  ExperimentOutline,
+  BookOutline,
+  BankOutline
+} from '@ant-design/icons-angular/icons';
+import { IconDefinition } from '@ant-design/icons-angular';
 
+const icons: IconDefinition[] = [
+  CalendarOutline,
+  PushpinOutline,
+  ReadOutline,
+  FireOutline,
+  HistoryOutline,
+  HomeOutline,
+  PhoneOutline,
+  UserOutline,
+  MailOutline,
+  LinkedinOutline,
+  TeamOutline,
+  ExperimentOutline,
+  BookOutline,
+  BankOutline
+];
+
+import { AboutComponent } from './components/about/about.component';
 import { AppComponent } from './app.component';
-import { MenuComponent } from './menu/menu.component';
-import { LandingComponent } from './landing/landing.component';
-import { ContactsComponent } from './components/contacts/contacts.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { EducationComponent } from './components/education/education.component';
+import { ExperienceComponent } from './components/experience/experience.component';
+import { HomeComponent } from './components/home/home.component';
+import { MenuComponent } from './components/menu/menu.component';
 import { SectionComponent } from './components/section/section.component';
-import { SkillComponent } from './components/skill/skill.component';
-import { SkillsComponent } from './skills/skills.component';
-import { FooterComponent } from './footer/footer.component';
+import { SkillsComponent } from './components/skills/skills.component';
 
 @NgModule({
   declarations: [
+    AboutComponent,
     AppComponent,
+    FooterComponent,
+    EducationComponent,
+    ExperienceComponent,
+    HomeComponent,
     MenuComponent,
-    LandingComponent,
-    ContactsComponent,
     SectionComponent,
-    SkillComponent,
-    SkillsComponent,
-    FooterComponent
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
-    HttpModule
+    FormsModule,
+    NgZorroAntdModule,
+    NzIconModule
   ],
-  providers: [],
+  providers: [
+    { provide: NZ_ICONS, useValue: icons }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
