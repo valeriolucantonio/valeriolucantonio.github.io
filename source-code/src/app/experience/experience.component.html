@@ -21,8 +21,8 @@
       </li>
     </div>
 
-    <ng-container *ngFor="let tech of job.technologies">
-      <small class="tag">{{ tech }}</small>
-    </ng-container>
+    <div class="job-techs">
+      <small *ngFor="let tech of job.technologies" class="tag">{{ tech }}</small>
+    </div>
   </div>
 </section>

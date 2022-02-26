@@ -8,7 +8,7 @@
   }
 
   .job-responsabilities {
-    margin-bottom: 6px;
+    margin-bottom: 4px;
   }
 
   .job-duration {
@@ -34,6 +34,9 @@
       color: $blue-2;
     }
   }
+  .job-tech {
+    display: flex;
+  }
 
   .tag {
     padding: 2px 6px;
@@ -42,7 +45,8 @@
     border-radius: 2px;
     white-space: nowrap;
     display: inline-block;
-    margin-top: 4px;
+    margin-top: 6px;
+    margin-right: 6px;
   }
 }
 

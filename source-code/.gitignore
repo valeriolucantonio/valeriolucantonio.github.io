@@ -2,6 +2,8 @@
 
 # Compiled output
 /dist
+/source-code/dist
+/source-code/node_modules
 /tmp
 /out-tsc
 # Only exists if Bazel was run

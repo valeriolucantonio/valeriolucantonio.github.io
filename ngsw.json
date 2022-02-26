@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1645873694003,
+  "timestamp": 1645887778950,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.81303401dd82fde1.js",
+        "/main.fd8cd027b69373ff.js",
         "/manifest.webmanifest",
         "/polyfills.c8c48dc0d70435ef.js",
         "/runtime.7deaae57f0ad1536.js",
@@ -89,15 +89,15 @@
     "/assets/resources/about.json": "51de9291d48cc3f0b83a013a2b2b028963c09286",
     "/assets/resources/contact.json": "92c0cfa03d7d4c1596d573212a401fb857dfb825",
     "/assets/resources/education.json": "ff59734b56422114afa5fab389804049bdecdbf5",
-    "/assets/resources/experience.json": "8f6be9b69e0a3e79975d564b378115f73554d4cc",
+    "/assets/resources/experience.json": "cdec9c44d9cff478f2cb94dc051d46944cfda9c3",
     "/assets/resources/home.json": "736f14a3c255a45152d64f9b3bfb457efe80a3c0",
     "/assets/resources/landing.json": "d0e399fbee63285de361b09dbd5c322f55f75e0c",
     "/assets/resources/menu.json": "66d0851ccf2368688cc21401b9ea933cde9fa06a",
     "/assets/resources/projects.json": "3d47e704d3cc432d36fc895612c6552d090e96d5",
     "/assets/resume.pdf": "87a78d28266de654e8e6dcbc2a7b8077f35bde0e",
     "/favicon.ico": "22b57c1c1bb367792f74d586e03e8824c2b76ef0",
-    "/index.html": "a4333b0f4ae6ab8939e735ca7c094f2f4ab9b51b",
-    "/main.81303401dd82fde1.js": "60cd8ae0a66b95ac66392b9c9b9cb63b55498b72",
+    "/index.html": "db0bfc129aa1960dce952ca880ecfc9eb884574a",
+    "/main.fd8cd027b69373ff.js": "a06aa22c9ddfa0808e2258dd1b75b4ba8da89c59",
     "/manifest.webmanifest": "bb53b5908da0c273ff820c606a9b4d5185b446c0",
     "/polyfills.c8c48dc0d70435ef.js": "965887884b879c34b228a8b82319acc8ed6a45ec",
     "/runtime.7deaae57f0ad1536.js": "1584847c8a911ac4d10f5e4699892b048175106f",
