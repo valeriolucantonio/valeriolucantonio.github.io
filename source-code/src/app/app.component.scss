@@ -1,0 +1,35 @@
+@import "./../theme/theme-variables";
+
+.valerio-site {
+  background-color: $blue-1;
+}
+
+@media screen and (max-width: $br-tablet) {
+  .valerio-site {
+    padding: 0 7%;
+  }
+}
+
+@media screen and (min-width: $br-tablet) {
+  .valerio-site {
+    padding: 0 15%;
+  }
+}
+
+@media screen and (min-width: $br-desktop) {
+  .valerio-site {
+    padding: 0 15%;
+  }
+}
+
+@media screen and (min-width: $br-desktop-lg) {
+  .valerio-site {
+    padding: 0 18%;
+  }
+}
+
+@media screen and (min-width: $br-desktop-xl) {
+  .valerio-site {
+    padding: 0 20%;
+  }
+}

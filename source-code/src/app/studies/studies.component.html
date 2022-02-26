@@ -1,0 +1,26 @@
+<section id="education" class="education">
+  <h4 class="title">{{ education.title }}</h4>
+
+  <div class="univ" *ngFor="let univ of education.sections">
+    <h6>
+      {{ univ.degree }}
+    </h6>
+
+    <h5>
+      {{ univ.field }}
+      <a class="link" [href]="univ.universityWebsite" target="_blank">@{{ univ.university }}</a>
+    </h5>
+
+    <div class="univ-duration">{{ univ.date }}, {{ univ.place }}</div>
+
+    <div class="univ-description">
+      {{ univ.description }}
+    </div>
+
+    <div class="univ-achievements">
+      <li *ngFor="let achievement of univ.achievements">
+        {{ achievement }}
+      </li>
+    </div>
+  </div>
+</section>

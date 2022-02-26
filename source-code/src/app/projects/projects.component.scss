@@ -1,0 +1,71 @@
+@import "./../../theme/theme-variables";
+
+.projects {
+  padding: 60px 0;
+
+  h4.title {
+    margin-bottom: $unit-s;
+  }
+
+  .projects-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .project-card {
+    box-shadow: 0 10px 30px -15px $blue-4;
+    background-color: $blue-3;
+    padding: $unit-m;
+    border-radius: 2px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 330px;
+    margin-top: $unit-l;
+  }
+
+  .project-description {
+    margin-top: $unit-s;
+  }
+
+  .project-card:hover {
+    transform: translateY(-7px);
+  }
+
+  .project-symbol {
+    color: $blue-2;
+    font-size: $font-size-h5;
+    margin-bottom: $unit-m;
+  }
+
+  .tag {
+    padding: 2px 6px;
+    background-color: $white-3;
+    color: $white-1;
+    border-radius: 2px;
+    white-space: nowrap;
+    display: inline-block;
+    margin-top: 4px;
+    margin-right: 4px;
+  }
+}
+
+@media screen and (min-width: $br-desktop) {
+  .project-card {
+    width: calc(33.33% - #{$unit-l});
+  }
+}
+
+@media screen and (max-width: $br-desktop) {
+  .project-card {
+    width: calc(50% - #{$unit-l});
+  }
+}
+
+@media screen and (max-width: $br-mobile) {
+  .project-card {
+    width: 100%;
+  }
+}

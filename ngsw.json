@@ -1,0 +1,125 @@
+{
+  "configVersion": 1,
+  "timestamp": 1645873694003,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.81303401dd82fde1.js",
+        "/manifest.webmanifest",
+        "/polyfills.c8c48dc0d70435ef.js",
+        "/runtime.7deaae57f0ad1536.js",
+        "/styles.ad44512f4b9cb267.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/Orbitron-medium.a595a1ec66227e3b.ttf",
+        "/Orbitron-regular.8c602e1db1c10ae2.ttf",
+        "/RobotoMono-ExtraLight.62dfdf9e4b42aa72.ttf",
+        "/RobotoMono-Light.0c81496a2833efc8.ttf",
+        "/RobotoMono-Regular.d72dbd98cb884c31.ttf",
+        "/assets/about-pic.png",
+        "/assets/close.svg",
+        "/assets/facebook.svg",
+        "/assets/facebook2.svg",
+        "/assets/fonts/Orbitron-Medium.ttf",
+        "/assets/fonts/Orbitron-Regular.ttf",
+        "/assets/fonts/RobotoMono-ExtraLight.ttf",
+        "/assets/fonts/RobotoMono-Light.ttf",
+        "/assets/fonts/RobotoMono-Regular.ttf",
+        "/assets/gmail.svg",
+        "/assets/instagram.svg",
+        "/assets/linkedin.svg",
+        "/assets/linkedin2.svg",
+        "/assets/logo.svg",
+        "/assets/menu.svg",
+        "/assets/pdf.svg",
+        "/assets/resources/about.json",
+        "/assets/resources/contact.json",
+        "/assets/resources/education.json",
+        "/assets/resources/experience.json",
+        "/assets/resources/home.json",
+        "/assets/resources/landing.json",
+        "/assets/resources/menu.json",
+        "/assets/resources/projects.json",
+        "/assets/resume.pdf"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/Orbitron-medium.a595a1ec66227e3b.ttf": "a98c434c6d60c360723bbce6c8fd2673f7be54be",
+    "/Orbitron-regular.8c602e1db1c10ae2.ttf": "b9b2d475d972ec8789318f713adb18f6ad6af966",
+    "/RobotoMono-ExtraLight.62dfdf9e4b42aa72.ttf": "63f7834e1637a2ed41b61c046087e871afab9529",
+    "/RobotoMono-Light.0c81496a2833efc8.ttf": "267094641172a3e4aee450955e0da07f3df898c5",
+    "/RobotoMono-Regular.d72dbd98cb884c31.ttf": "8b91c38b4beb70b8b39a1f7cb601fc1f426a9af8",
+    "/assets/about-pic.png": "113110a960fb5e25aee302e43c5eb8415dc8d778",
+    "/assets/close.svg": "e17515ac374e936ce48c8fdbe4869260d0eec225",
+    "/assets/facebook.svg": "a0939f782e6abd0dddd9e48e6514318febfe6779",
+    "/assets/facebook2.svg": "63051ab56cb6b972c7dc839c1818314490aa42f3",
+    "/assets/fonts/Orbitron-Medium.ttf": "a98c434c6d60c360723bbce6c8fd2673f7be54be",
+    "/assets/fonts/Orbitron-Regular.ttf": "b9b2d475d972ec8789318f713adb18f6ad6af966",
+    "/assets/fonts/RobotoMono-ExtraLight.ttf": "63f7834e1637a2ed41b61c046087e871afab9529",
+    "/assets/fonts/RobotoMono-Light.ttf": "267094641172a3e4aee450955e0da07f3df898c5",
+    "/assets/fonts/RobotoMono-Regular.ttf": "8b91c38b4beb70b8b39a1f7cb601fc1f426a9af8",
+    "/assets/gmail.svg": "fd684c14c05d92ed5c8f4f99d96f70d74a395f2a",
+    "/assets/instagram.svg": "1071a5d11f4c31d877a2f02f39fb41267dcb22c6",
+    "/assets/linkedin.svg": "80afa3b4fe0bebeb1a80e51d1afe5ceedd0f10fa",
+    "/assets/linkedin2.svg": "a8609d4266095fd37968f2a1a9fcc1f83bcac5c5",
+    "/assets/logo.svg": "df78a33231bcc302f1ee10af4a169ed2a40712b7",
+    "/assets/menu.svg": "332d77643c2087528dce5bef53cc3b966210a2d2",
+    "/assets/pdf.svg": "e1ad75f7fc0d0e557e02a6305b092ac35f6b334b",
+    "/assets/resources/about.json": "51de9291d48cc3f0b83a013a2b2b028963c09286",
+    "/assets/resources/contact.json": "92c0cfa03d7d4c1596d573212a401fb857dfb825",
+    "/assets/resources/education.json": "ff59734b56422114afa5fab389804049bdecdbf5",
+    "/assets/resources/experience.json": "8f6be9b69e0a3e79975d564b378115f73554d4cc",
+    "/assets/resources/home.json": "736f14a3c255a45152d64f9b3bfb457efe80a3c0",
+    "/assets/resources/landing.json": "d0e399fbee63285de361b09dbd5c322f55f75e0c",
+    "/assets/resources/menu.json": "66d0851ccf2368688cc21401b9ea933cde9fa06a",
+    "/assets/resources/projects.json": "3d47e704d3cc432d36fc895612c6552d090e96d5",
+    "/assets/resume.pdf": "87a78d28266de654e8e6dcbc2a7b8077f35bde0e",
+    "/favicon.ico": "22b57c1c1bb367792f74d586e03e8824c2b76ef0",
+    "/index.html": "a4333b0f4ae6ab8939e735ca7c094f2f4ab9b51b",
+    "/main.81303401dd82fde1.js": "60cd8ae0a66b95ac66392b9c9b9cb63b55498b72",
+    "/manifest.webmanifest": "bb53b5908da0c273ff820c606a9b4d5185b446c0",
+    "/polyfills.c8c48dc0d70435ef.js": "965887884b879c34b228a8b82319acc8ed6a45ec",
+    "/runtime.7deaae57f0ad1536.js": "1584847c8a911ac4d10f5e4699892b048175106f",
+    "/styles.ad44512f4b9cb267.css": "8ec610c74cf0937d3a28f38679aaf1b00cb2ea2c"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}

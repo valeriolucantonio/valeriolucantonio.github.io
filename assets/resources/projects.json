@@ -1,0 +1,33 @@
+{
+	"title": "Last Projects",
+  "projects": [
+    {
+      "name": "Personal Website V4",
+      "date": "2022",
+      "link": "https://valeriolucantonio.github.io/",
+      "description": "The 4th version of this website completely rebuilt from scratch. The focus was to bring a nerdy design to it",
+      "technologies": [
+        "Angular", "HTML5", "CSS3"
+      ]
+    },
+    {
+      "name": "Visit Altopiano",
+      "date": "2021",
+      "link": "https://play.google.com/store/apps/details?id=visit.altopiano",
+      "description": "A mobile application to find sport areas, events and business activities around Altopiano delle Rocche (Italy)",
+      "technologies": [
+        "Ionic", "Node", "Express", "MongoDb"
+      ]
+    },
+    {
+      "name": "Bar Voce",
+      "date": "2020",
+      "link": "https://barvoce.it/",
+      "description": "A website to showcase the products of bar Voce. The site is reachable through a QR code placed on the bar tables",
+      "technologies": [
+        "Angular", "Node", "Express", "MongoDb"
+      ]
+    }
+  ]
+}
+

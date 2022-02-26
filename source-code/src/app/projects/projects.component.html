@@ -1,0 +1,16 @@
+<section id="projects" class="projects">
+  <h4 class="title">{{ projects.title }}</h4>
+  <div class="projects-content">
+    <a class="project-card" *ngFor="let project of projects.projects" [href]="project.link" target="_blank">
+      <div class="project-content">
+        <div class="project-symbol">&lt;/&gt;</div>
+        <h6>{{ project.name }}</h6>
+        <small>{{ project.date }}</small>
+        <div class="project-description">{{ project.description }}</div>
+      </div>
+      <div class="project-techs">
+        <small class="tag" *ngFor="let tech of project.technologies">{{ tech }}</small>
+      </div>
+    </a>
+  </div>
+</section>

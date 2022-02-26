@@ -1,0 +1,45 @@
+// Layout
+$header-height: 60px;
+
+// Units
+$base-unit: 10px;
+$unit-xs: calc($base-unit / 2);
+$unit-s: calc($base-unit);
+$unit-m: calc($base-unit * 2);
+$unit-l: calc($base-unit * 3);
+$unit-xl: calc($base-unit * 4);
+$unit-xxl: calc($base-unit * 5);
+
+// Colors
+$white-1: #f4f9ff;
+$white-2: #ccd6f6;
+$white-3: #a4a4a4;
+
+$blue-1: #0a192f;
+$blue-2: #07c8f9;
+$blue-3: #112240;
+$blue-4: #020c1b;
+
+// Font size
+$font-size-extra-small: 10px;
+$font-size-small: 12px;
+$font-size-body: 14px;
+$font-size-h6: 16px;
+$font-size-h5: clamp(18px, 8vw, 20px);
+$font-size-h4: clamp(20px, 8vw, 30px);
+$font-size-h3: clamp(24px, 8vw, 48px);
+$font-size-h2: clamp(32px, 8vw, 64px);
+$font-size-h1: clamp(36px, 8vw, 72px);
+
+// Font weight
+$font-weight-extra-light: 200;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+
+// Breakpoints
+$br-mobile: 576px;
+$br-tablet: 768px;
+$br-desktop: 992px;
+$br-desktop-lg: 1200px;
+$br-desktop-xl: 1600px;

@@ -1,0 +1,15 @@
+<div class="valerio-site">
+  <ng-container *ngIf="loading">
+    <app-loading></app-loading>
+  </ng-container>
+  <ng-container *ngIf="!loading">
+    <app-header [menuItems]="menu"></app-header>
+    <app-landing [landing]="landing"></app-landing>
+    <app-about [about]="about"></app-about>
+    <app-experience [experience]="experience"></app-experience>
+    <app-studies [education]="education"></app-studies>
+    <app-projects [projects]="projects"></app-projects>
+    <app-contacts [contact]="contact"></app-contacts>
+    <app-footer></app-footer>
+  </ng-container>
+</div>

@@ -1,0 +1,28 @@
+<section id="experience" class="experience">
+  <h4 class="title">{{ experience.title }}</h4>
+
+  <div class="job" *ngFor="let job of experience.sections">
+    <div class="job-title">
+      <h5>
+        {{ job.role }}
+        <a class="link" [href]="job.companyWebsite" target="_blank">@{{ job.company }}</a>
+      </h5>
+    </div>
+
+    <div class="job-duration">{{ job.date }}, {{ job.place }}</div>
+
+    <div class="job-description">
+      {{ job.description }}
+    </div>
+
+    <div class="job-responsabilities">
+      <li *ngFor="let resp of job.reponsabilities">
+        {{ resp }}
+      </li>
+    </div>
+
+    <ng-container *ngFor="let tech of job.technologies">
+      <small class="tag">{{ tech }}</small>
+    </ng-container>
+  </div>
+</section>

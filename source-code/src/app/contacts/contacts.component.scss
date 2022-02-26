@@ -1,0 +1,31 @@
+@import "./../../theme/theme-variables";
+
+.contacts {
+  padding: 60px 0;
+
+  .title {
+    margin-bottom: $unit-xl;
+  }
+
+  div.content {
+    margin-bottom: $unit-l;
+  }
+}
+
+@media screen and (max-width: $br-tablet) {
+  div.content {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: $br-tablet) {
+  div.content {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: $br-desktop) {
+  div.content {
+    width: 0 60%;
+  }
+}

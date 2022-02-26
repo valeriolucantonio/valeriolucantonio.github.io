@@ -1,0 +1,63 @@
+@import "./../../theme/theme-variables";
+
+.experience {
+  padding: 60px 0;
+
+  h4.title {
+    margin-bottom: $unit-xl;
+  }
+
+  .job-responsabilities {
+    margin-bottom: 6px;
+  }
+
+  .job-duration {
+    margin-bottom: $unit-s;
+    text-transform: uppercase;
+    color: $white-3;
+  }
+
+  .job {
+    background-color: $blue-1;
+    border-bottom: 1px solid #f4f9ff;
+    border-radius: 2px;
+    padding-bottom: $unit-m;
+    margin: $unit-m 0;
+  }
+
+  .job-responsabilities {
+    li {
+      list-style: none;
+    }
+    li::before {
+      content: "▹";
+      color: $blue-2;
+    }
+  }
+
+  .tag {
+    padding: 2px 6px;
+    background-color: $white-3;
+    color: $white-1;
+    border-radius: 2px;
+    white-space: nowrap;
+    display: inline-block;
+    margin-top: 4px;
+  }
+}
+
+@media screen and (max-width: $br-tablet) {
+  .job {
+    width: 100%;
+  }
+}
+@media screen and (min-width: $br-desktop) {
+  .job {
+    width: 80%;
+  }
+}
+@media screen and (min-width: $br-desktop-lg) {
+  .job {
+    width: 70%;
+  }
+}

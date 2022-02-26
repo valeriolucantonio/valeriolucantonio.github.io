@@ -1,0 +1,33 @@
+@import "./../../theme/theme-variables";
+
+.landing {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: $blue-1;
+  padding: 100px 0;
+
+  h1.title {
+    margin-top: $unit-l;
+  }
+  h3.subtitle {
+    margin-top: $unit-s;
+  }
+  div.content {
+    margin-top: $unit-l;
+  }
+  div.download-resume {
+    margin-top: $unit-xl;
+  }
+
+  div.blue {
+    color: $blue-2;
+  }
+}
+
+@media screen and (min-width: $br-desktop) {
+  div.content {
+    width: 60%;
+  }
+}

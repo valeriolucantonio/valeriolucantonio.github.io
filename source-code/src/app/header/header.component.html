@@ -1,0 +1,28 @@
+<nav class="header" [ngClass]="headerFixed ? 'header-fixed' : 'header-not-fixed'">
+  <div class="header-content">
+    <div class="logo" (click)="scrollToElement('landing')">
+      <img src="./assets/logo.svg" />
+    </div>
+
+    <div class="menu-desktop">
+      <div class="menu-items">
+        <a *ngFor="let item of menuItems" (click)="scrollToElement(item.link)">
+          {{ item.name }}
+        </a>
+      </div>
+    </div>
+
+    <div class="menu-mobile" (click)="menuOpen = !menuOpen">
+      <img class="menu-controls" *ngIf="!menuOpen" src="./assets/menu.svg" />
+      <img class="menu-controls" *ngIf="menuOpen" src="./assets/close.svg" />
+    </div>
+  </div>
+
+  <div *ngIf="menuOpen" class="menu-mobile">
+    <div class="menu-items">
+      <a *ngFor="let item of menuItems" (click)="scrollToElement(item.link)">
+        {{ item.name }}
+      </a>
+    </div>
+  </div>
+</nav>

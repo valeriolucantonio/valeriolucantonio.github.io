@@ -1,0 +1,47 @@
+{
+	"title": "Education",
+	"sections": [
+    {
+			"date": "Sep 2014 - Jun 2015",
+      "degree": "Master Degree",
+      "field": "Software Engineering",
+      "vote": "110/110",
+      "university": "Malardalen University",
+      "universityWebsite": "https://www.mdu.se/",
+      "place": "Sweden",
+			"description": "As part of the international program Global Software Engineering European Master (GSEEM)",
+      "achievements": [
+        "4 projects exams with real customers of the university",
+        "Master thesis titled 'Enhancing the consistency between requirements and test cases through the definition of a Controlled Natural Language"
+      ]
+		},
+    {
+			"date": "Mar 2013 - Sep 2014",
+      "degree": "Master Degree",
+      "field": "Software Engineering",
+      "vote": "110/110",
+      "university": "University of L'Aquila",
+      "universityWebsite": "https://www.univaq.it/",
+      "place": "Italy",
+			"description": "As part of the international program Global Software Engineering European Master (GSEEM)",
+      "achievements": [
+        "10 exams both theoretical and projects",
+        "Most interesting: Software Engineering, Mobile Application Development and Model Driven Engineering"
+      ]
+		},
+    {
+			"date": "Sep 2008 - Dec 2012",
+      "degree": "Bachelor Degree",
+      "field": "Computer Science",
+      "vote": "99/110",
+      "university": "University of L'Aquila",
+      "universityWebsite": "https://www.univaq.it/",
+      "place": "Italy",
+			"description": "This course gives a solid theoretical background, and a wide techology overview",
+      "achievements": [
+        "28 exams both theoretical and projects",
+        "Bachelor thesis titled 'Design and development of a Java context aware mobile application'"
+      ]
+		}
+	]
+}

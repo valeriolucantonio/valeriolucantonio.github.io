@@ -1,0 +1,77 @@
+@import "./../../theme/theme-variables";
+
+.footer {
+  .social {
+    display: flex;
+
+    a {
+      display: flex;
+      justify-content: center;
+      width: 44px;
+      height: 44px;
+      text-align: center;
+    }
+
+    img.icon {
+      width: 22px;
+      height: 22px;
+      align-self: center;
+    }
+  }
+
+  a:hover:not(.email-address) {
+    transform: translateY(-3px);
+  }
+
+  .separator {
+    width: 1px;
+    height: 100px;
+    background-color: $white-1;
+    margin-top: $unit-xl;
+    align-self: center;
+  }
+
+  .copyright {
+    padding-bottom: $unit-m;
+    text-align: center;
+    font-size: $font-size-small;
+  }
+}
+// to do: review to change to desktop
+@media screen and (min-width: $br-tablet) {
+  .email {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0;
+    right: $unit-xl;
+
+    .email-address {
+      color: $white-1;
+      writing-mode: vertical-rl;
+      font-size: $font-size-small;
+      font-weight: $font-weight-extra-light;
+      text-decoration: none;
+    }
+  }
+  .social {
+    flex-direction: column;
+    position: fixed;
+    bottom: 0;
+    left: $unit-xl;
+  }
+}
+
+@media screen and (max-width: $br-tablet) {
+  .social {
+    padding: $unit-m;
+  }
+  .separator,
+  .email {
+    display: none;
+  }
+  .social {
+    justify-content: center;
+    position: static;
+  }
+}

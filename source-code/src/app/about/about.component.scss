@@ -1,0 +1,44 @@
+@import "./../../theme/theme-variables";
+
+.about {
+  padding: 60px 0;
+
+  h4.title {
+    margin-bottom: $unit-xl;
+  }
+  .about-content {
+    display: flex;
+    flex-direction: row;
+
+    .about-pic {
+      margin-top: 0;
+      margin-left: 80px;
+
+      img {
+        width: 280px;
+      }
+    }
+
+    .about-text {
+      div {
+        padding-bottom: $unit-s;
+        border-bottom: 1px solid;
+        margin-bottom: $unit-m;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $br-desktop) {
+  .about {
+    .about-content {
+      flex-direction: column;
+
+      .about-pic {
+        margin-top: $unit-l;
+        margin-left: 0;
+        text-align: center;
+      }
+    }
+  }
+}

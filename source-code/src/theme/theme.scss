@@ -1,0 +1,97 @@
+@import "./theme-variables";
+
+// Typography
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Orbitron, sans-serif";
+  margin: 0;
+}
+
+*,
+small,
+body {
+  font-family: "Roboto Mono, monospace";
+  margin: 0;
+}
+
+* {
+  font-size: $font-size-body;
+  font-weight: $font-weight-regular;
+  color: $white-2;
+}
+small {
+  font-size: $font-size-small;
+  font-weight: $font-weight-regular;
+  color: $white-2;
+}
+h6 {
+  font-weight: $font-weight-medium;
+  color: $white-1;
+  font-size: $font-size-h6;
+}
+h5 {
+  font-weight: $font-weight-medium;
+  color: $white-1;
+  font-size: $font-size-h5;
+}
+h4 {
+  font-weight: $font-weight-medium;
+  color: $white-1;
+  font-size: $font-size-h4;
+}
+h3 {
+  font-weight: $font-weight-medium;
+  color: $white-2;
+  font-size: $font-size-h3;
+}
+h2 {
+  font-weight: $font-weight-medium;
+  color: $white-1;
+  font-size: $font-size-h2;
+}
+h1 {
+  font-weight: $font-weight-medium;
+  color: $white-1;
+  font-size: $font-size-h1;
+}
+
+a {
+  text-decoration: none;
+  font-size: inherit;
+  font-family: inherit;
+  color: $blue-2;
+}
+a:hover {
+  color: $blue-2;
+}
+
+a.link {
+  padding-bottom: 1px;
+  background-image: linear-gradient($blue-2, $blue-2);
+  background-position: 0 100%;
+  background-size: 0% 2px;
+  background-repeat: no-repeat;
+  transition: background-size 0.3s, background-position 0s 0.3s; /*change after the size immediately*/
+}
+
+a.link:hover {
+  background-position: 100% 100%;
+  background-size: 100% 2px;
+}
+
+a.button {
+  text-align: center;
+  padding: $unit-s $unit-m;
+  font-size: $font-size-h6;
+  border: 1px solid $blue-2;
+  border-radius: 2px;
+  vertical-align: middle;
+}
+
+a.button:hover {
+  background-color: rgba(100, 255, 218, 0.1);
+}

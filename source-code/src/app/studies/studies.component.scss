@@ -1,0 +1,48 @@
+@import "./../../theme/theme-variables";
+
+.education {
+  padding: 60px 0;
+
+  h4.title {
+    margin-bottom: $unit-xl;
+  }
+
+  .univ-duration {
+    margin-bottom: $unit-s;
+    text-transform: uppercase;
+    color: $white-3;
+  }
+
+  .univ {
+    border-bottom: 1px solid $white-1;
+    border-radius: 2px;
+    padding-bottom: $unit-m;
+    margin: $unit-m 0;
+  }
+
+  .univ-achievements {
+    li {
+      list-style: none;
+    }
+    li::before {
+      content: "▹";
+      color: $blue-2;
+    }
+  }
+}
+
+@media screen and (max-width: $br-tablet) {
+  .univ {
+    width: 100%;
+  }
+}
+@media screen and (min-width: $br-desktop) {
+  .univ {
+    width: 80%;
+  }
+}
+@media screen and (min-width: $br-desktop-lg) {
+  .univ {
+    width: 70%;
+  }
+}
