@@ -94,6 +94,20 @@
       "technologies": [
         "AngularJs", "JavaScript", "HTML5", "CSS3", "Java"
       ]
+		},
+    {
+			"date": "2013 - Present",
+      "role": "Freelance Web Engineer",
+      "company": "",
+      "companyWebsite": "",
+      "place": "Italy",
+			"description": "Working on different web and mobile applications",
+      "reponsabilities": [
+        "Design and develop small presentation websites, ecommerces and mobile apps"
+      ],
+      "technologies": [
+        "MEAN stack", "Ionic", "Backbone", "Cordova", "CMSs"
+      ]
 		}
 	]
 }

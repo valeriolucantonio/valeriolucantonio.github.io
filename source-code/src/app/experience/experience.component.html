@@ -5,7 +5,7 @@
     <div class="job-title">
       <h5>
         {{ job.role }}
-        <a class="link" [href]="job.companyWebsite" target="_blank">@{{ job.company }}</a>
+        <a *ngIf="job.companyWebsite" class="link" [href]="job.companyWebsite" target="_blank">@{{ job.company }}</a>
       </h5>
     </div>
 
