@@ -3,25 +3,31 @@
 	"sections": [
 		{
 			"date": "Mar 2022 - Present",
-      "role": "Senior Frontend Engineer",
+      "role": "Tech Lead",
       "company": "On Running",
-      "companyWebsite": "https://www.on-running.com/",
+      "companyWebsite": "https://www.on.com/",
       "place": "Zurich",
-			"description": "Working on an ecommerce application for sport wear",
+      "description": "Tech lead of the post-purchase experience team for on.com website.",
       "technologies": [
-        "VueJs", "TypeScript", "HTML5", "CSS3"
+        "VueJs", "TypeScript", "HTML5", "CSS3", "Contentful", "NodeJs"
       ],
-      "reponsabilities": []
-		},
-		{
-			"date": "Mar 2021 - Mar 2022",
+      "reponsabilities": [
+	"Line management of engineering team with responsibilities of coaching, career development and hiring",
+        "Lead the technical design and implementation of new solution spamming over the customer post purchase journey",
+	"Mid to long term roadmap planning with company stakeholders from different business functions",
+        "Working on technical initiatives to drive architecture improvements, reduce technical debt and help to drive technical excellence",
+        "Hands on lead frontend engineer, still coding quite some!"
+      ]
+},
+{
+      "date": "Mar 2021 - Mar 2022",
       "role": "Lead Frontend Engineer",
       "company": "Akenza",
       "companyWebsite": "https://akenza.io/",
       "place": "Zurich",
-			"description": "Working on an IoT web application for MVP and after go-live",
+      "description": "Working on an IoT web application for MVP and after go-live",
       "reponsabilities": [
-        "Leading the frontend team on architecture and design topics",
+        "Leading the frontend team and the architecture and tech design of the application",
         "Main point of contact for designer, product owner and BE devs",
         "Set foundations for company design system and tech documentation"
       ],
