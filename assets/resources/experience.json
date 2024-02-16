@@ -7,15 +7,15 @@
       "company": "On Running",
       "companyWebsite": "https://www.on.com/",
       "place": "Zurich",
-      "description": "Tech lead of the post-purchase experience team for on.com website.",
+      "description": "Tech lead of the post-purchase experience team for on.com website",
       "technologies": [
         "VueJs", "TypeScript", "HTML5", "CSS3", "Contentful", "NodeJs"
       ],
       "reponsabilities": [
-	"Line management of engineering team with responsibilities of coaching, career development and hiring",
-        "Lead the technical design and implementation of new solution spamming over the customer post purchase journey",
-	"Mid to long term roadmap planning with company stakeholders from different business functions",
-        "Working on technical initiatives to drive architecture improvements, reduce technical debt and help to drive technical excellence",
+	"Line manager of engineering team with responsibilities of coaching, career development and hiring",
+        "Lead the technical design and implementation of new solution",
+	"Roadmap planning with stakeholders from different business functions",
+        "Drive architecture improvements, reduce technical debt and help to drive technical excellence",
         "Hands on lead frontend engineer, still coding quite some!"
       ]
 },
