@@ -7,7 +7,7 @@
       "company": "On Running",
       "companyWebsite": "https://www.on.com/",
       "place": "Zurich",
-      "description": "Tech lead of the post-purchase experience team for on.com website",
+      "description": "Leading the post-purchase experience team for on.com website",
       "technologies": [
         "VueJs", "TypeScript", "HTML5", "CSS3", "Contentful", "NodeJs"
       ],
@@ -27,7 +27,7 @@
       "place": "Zurich",
       "description": "Working on an IoT web application for MVP and after go-live",
       "reponsabilities": [
-        "Leading the frontend team and the architecture and tech design of the application",
+        "Lead the frontend team, the architecture and tech design of the application",
         "Main point of contact for designer, product owner and BE devs",
         "Set foundations for company design system and tech documentation"
       ],
@@ -43,8 +43,8 @@
       "place": "Zurich",
       "description": "Working on several web apps in the domain of wealth management",
       "reponsabilities": [
-        "Supported existing applications with maintenance",
-        "Analysed existing technical depth and define a plan to reduce it",
+        "Support existing applications with maintenance",
+        "Analyse existing technical depth and define a plan to reduce it",
         "Set foundations for the refactoring of one application"
       ],
       "technologies": [
@@ -57,12 +57,12 @@
       "company": "Evooq",
       "companyWebsite": "https://www.evooq.ch/",
       "place": "Zurich",
-			"description": "Working on an ecosystem of apps in the domain of structured products",
+"description": "Working on an ecosystem of apps in the domain of structured products",
       "reponsabilities": [
-        "Led frontend architecture and design of the ecosystem",
+        "Lead frontend architecture and design of the ecosystem",
         "Scrum master for a cross functional team of 8 people",
-        "Implemented MVP and supported clients in the after go-live",
-        "Re-implemented existing complex form-based application"
+        "Implement MVP and supported clients in the after go-live",
+        "Re-implement existing complex form-based application"
       ],
       "technologies": [
         "Angular 8", "TypeScript", "HTML5", "CSS3" , "graphql", "GRPC", "Ant Design"
@@ -76,9 +76,9 @@
       "place": "Zurich",
 			"description": "Working on a B2C real estate app and a B2B incident reporting app",
       "reponsabilities": [
-        "Led frontend architecture and design of real estate application",
+        "Lead frontend architecture and design of real estate application",
         "Scrum master for a cross functional team of 6 people",
-        "Supported features enhancements of existing reporting portal"
+        "Support features enhancements of existing reporting portal"
       ],
       "technologies": [
         "AureliaJs", "Angular 6", "TypeScript", "HTML5", "CSS3", "Angular Material"
@@ -92,10 +92,10 @@
       "place": "Zurich",
 			"description": "Working on an ecosystem of e-banking apps in the area of payment and trading",
       "reponsabilities": [
-        "Working on complex apps with customisation exposed to clients",
-        "Implemented MVP and sent live more than 25 banks",
-        "Re-implemented existing apps with stricter quality criteria",
-        "Working on full-stack end-to-end features"
+        "Work on complex apps with customisation exposed to clients",
+        "Implement MVP and sent live more than 25 banks",
+        "Re-implement existing apps with stricter quality criteria",
+        "Work on full-stack end-to-end features"
       ],
       "technologies": [
         "AngularJs", "JavaScript", "HTML5", "CSS3", "Java"
