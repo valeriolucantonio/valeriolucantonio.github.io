@@ -9,7 +9,7 @@
       "place": "Zurich",
       "description": "Leading the post-purchase experience team for on.com website",
       "technologies": [
-        "VueJs", "TypeScript", "HTML5", "CSS3", "Contentful", "NodeJs"
+        "VueJs", "TypeScript", "HTML5", "CSS3", "Graphql", "Contentful"
       ],
       "reponsabilities": [
 	"Line manager of engineering team with responsibilities of coaching, career development and hiring",
