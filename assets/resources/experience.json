@@ -19,8 +19,8 @@
 			    "Line manager of engineering teams with responsibilities of coaching, career development and hiring",
 				"Lead the technical design and implementation of new solution",
 				"Acting as a staff for vendor integrations and mission-focused projects",
-				  "Roadmap planning with stakeholders from different business functions",
-				  "Drive architecture, reduce technical debt to achieve technical excellence"
+			    "Roadmap planning with stakeholders from different business functions",
+			    "Drive architecture, reduce technical debt to achieve technical excellence"
 		      ]
 		},
 		{
@@ -36,7 +36,7 @@
 		      "reponsabilities": [
 			    "Architected and implemented profile management page",
 				  "Architected and implemented order management and order detail page",
-				"Architected and implemented the website main navigation & footer",
+				"Architected and implemented the website main navigation & footer"
 		      ]
 		},
 		{
