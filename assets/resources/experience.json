@@ -45,7 +45,7 @@
 		      "company": "Akenza",
 		      "companyWebsite": "https://akenza.io/",
 		      "place": "Zurich",
-		      "description": "Working on an IoT web application for MVP and after go-live",
+		      "description": "Worked on an IoT web application for MVP and after go-live",
 		      "reponsabilities": [
 		        "Lead the frontend team, the architecture and tech design of the application",
 		        "Main point of contact for designer, product owner and BE devs",
@@ -61,7 +61,7 @@
 		      "company": "Credit Suisse",
 		      "companyWebsite": "https://www.credit-suisse.com/",
 		      "place": "Zurich",
-		      "description": "Working on several web apps in the domain of wealth management",
+		      "description": "Worked on several web apps in the domain of wealth management",
 		      "reponsabilities": [
 		        "Support existing applications with maintenance",
 		        "Analyse existing technical depth and define a plan to reduce it",
@@ -77,7 +77,7 @@
 		      "company": "Evooq",
 		      "companyWebsite": "https://www.evooq.ch/",
 		      "place": "Zurich",
-		"description": "Working on an ecosystem of apps in the domain of structured products",
+		"description": "Worked on an ecosystem of apps in the domain of structured products",
 		      "reponsabilities": [
 		        "Lead frontend architecture and design of the ecosystem",
 		        "Scrum master for a cross functional team of 8 people",
@@ -94,7 +94,7 @@
 		      "company": "Open Web Technology",
 		      "companyWebsite": "https://openwt.com/",
 		      "place": "Zurich",
-					"description": "Working on a B2C real estate app and a B2B incident reporting app",
+					"description": "Worked on a B2C real estate app and a B2B incident reporting app",
 		      "reponsabilities": [
 		        "Lead frontend architecture and design of real estate application",
 		        "Scrum master for a cross functional team of 6 people",
@@ -110,7 +110,7 @@
 		      "company": "Avaloq",
 		      "companyWebsite": "https://www.avaloq.com/",
 		      "place": "Zurich",
-					"description": "Working on an ecosystem of e-banking apps in the area of payment and trading",
+					"description": "Worked on an ecosystem of e-banking apps in the area of payment and trading",
 		      "reponsabilities": [
 		        "Work on complex apps with customisation exposed to clients",
 		        "Implement MVP and sent live more than 25 banks",
@@ -122,12 +122,12 @@
 		      ]
 				},
 		    {
-					"date": "2013 - Present",
+					"date": "2013 - 2015",
 		      "role": "Freelance Web Engineer",
 		      "company": "",
 		      "companyWebsite": "",
 		      "place": "Italy",
-					"description": "Working on different web and mobile applications",
+					"description": "Worked on different web and mobile applications",
 		      "reponsabilities": [
 		        "Design and develop small presentation websites, ecommerces and mobile apps"
 		      ],
